@@ -1,0 +1,25 @@
+#Navigation{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.Navigation-Container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: 30px;
+    align-items: center;
+    justify-items: center;
+}
+.Nav-Link{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+.Nav-Link:hover{
+    font-weight: bold;
+}
+@media (max-width: 700px) {
+    .Navigation-Container {
+      grid-template-columns: 1fr !important
+    }
+  }
