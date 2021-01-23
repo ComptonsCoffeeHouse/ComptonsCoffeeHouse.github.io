@@ -7,9 +7,7 @@ function Hours() {
     <section id="Hours">
         <h2>Hours</h2>
         <div className="HoursContainer">
-            <p>M-F 7AM-4PM</p>
-            <p>Saturday 8AM-4PM</p>
-            <p>Sunday 8AM-2PM</p>
+            <p>7AM - 1PM</p>
         </div>
     </section>
   );
