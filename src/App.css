@@ -3,6 +3,9 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+/* .Elements{
+  margin-top: 30px;
+} */
 section{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,9 +13,17 @@ section{
   justify-items: center;
   position: relative;
 }
+
+h1{
+  font-size: 2.5em;
+}
+
 @media (max-width: 700px) {
   section {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+  }
+  h1{
+    font-size: 1.68em;
   }
 }
