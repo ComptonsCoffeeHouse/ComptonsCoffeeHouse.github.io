@@ -4,7 +4,8 @@ import Navigation from './components/Navigation'
 import Hours from './components/Hours'
 import Address from './components/Address'
 import About from './components/About'
-import Hero from './components/Hero'
+// import Hero from './components/Hero'
+import PictureCarousel from './components/PictureCarousel'
 import { useMediaQuery } from 'react-responsive';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       {!mobile && <Navigation mobile={mobile} /> }
       <div className="Elements">
-        <Hero/>
+        <PictureCarousel/>
         <Hours/>
         <Address/>
         <About/>

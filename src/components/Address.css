@@ -1,4 +1,5 @@
-.Navigation-Container{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+.PhoneNumber, .Address{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
 }

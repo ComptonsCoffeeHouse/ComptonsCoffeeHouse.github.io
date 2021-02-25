@@ -7,9 +7,13 @@ function Address() {
     <section id="Address">
       <h2>Location</h2>
       <div className="AddressContainer">
-        <p>1910 Fillmore Street</p>
-        <p>San Francisco, California</p>
-        <p>415.555.1234</p>
+        <address>
+          <a className="Address" target="_blank" rel="noreferrer" href="https://goo.gl/maps/qX7pHNrtavGphEDr6">
+            <p>1910 Fillmore Street</p>
+            <p>San Francisco, California</p>
+          </a>
+          <p><a className="PhoneNumber" href="tel:4154166173">415.416.6173</a></p>
+        </address>
       </div>
     </section>
   );

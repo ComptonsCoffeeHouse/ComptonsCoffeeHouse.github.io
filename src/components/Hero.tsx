@@ -7,7 +7,6 @@ function Hero(){
         <img src={pic} className="HeroImage" alt="Coffee Shop" />
         <div className='HeroTextContainer'>
             <h1 className='HeroTitle'>{"Compton's\nCoffee\nHouse"}</h1>
-            <div className='Opening'>Opening 02.05.2021</div>
         </div>
     </section>
 }
