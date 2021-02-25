@@ -1,21 +1,13 @@
 #PictureCarousel{
     display: block;
 }
-
+.ImageContainer{
+    background-color: white;
+}
 .HeroImage{
-    /* width: 100%; */
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-}
-.HeroTextContainer{
-    position: absolute;
-    grid-column-start: -2;
-    grid-row-start: -2;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-}
-.Opening{
-    font-size: 1.5em;
+    max-height: 560px;
+    width: auto;
+    object-fit: contain;
 }
 
 @media (max-width: 700px) {

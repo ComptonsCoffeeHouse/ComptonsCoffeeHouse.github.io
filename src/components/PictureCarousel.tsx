@@ -11,9 +11,9 @@ function PictureCarousel(){
             showIndicators={false}
             showStatus={false}
             showThumbs={false}
-
+            dynamicHeight={false}
         >
-            {[<Item key={1}/>]}
+            {[1,2,3].map(n => <Item key={n}/>)}
         </Carousel>
     </section>
 }
@@ -21,13 +21,11 @@ function PictureCarousel(){
 function Item(props: any){
 
     return(
-        <section key={props.key}>
-            <img src={cupOfComptons} className="HeroImage" alt="Coffee Shop" />
-            <div className='HeroTextContainer'>
-                {/* <h1 className='HeroTitle'>{"Compton's\nCoffee\nHouse"}</h1> */}
-                {/* <div className='Opening'>Opening 02.05.2021</div> */}
+        <div key={props.key}>
+            <div className="ImageContainer">
+                <img src={cupOfComptons} className="HeroImage" alt="Coffee Shop" />
             </div>
-        </section>  
+        </div>  
     )
 }
 
