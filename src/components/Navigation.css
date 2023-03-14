@@ -9,7 +9,7 @@
 .Navigation-Container{
     max-height: 30px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-auto-rows: 30px;
     align-items: center;
     justify-items: center;
