@@ -22,10 +22,6 @@ function Navigation(props: any) {
       text: 'About',
       linkId: 'About'
     },
-    {
-      text: 'Menu',
-      linkId: 'Menu'
-    },
   ];
   return (
     <nav id="Navigation">

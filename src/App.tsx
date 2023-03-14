@@ -5,7 +5,6 @@ import Hours from './components/Hours'
 import Address from './components/Address'
 import About from './components/About'
 // import Hero from './components/Hero'
-import Menu from './components/Menu'
 import PictureCarousel from './components/PictureCarousel'
 import { useMediaQuery } from 'react-responsive';
 
@@ -19,7 +18,6 @@ function App() {
         <Hours/>
         <Address/>
         <About/>
-        <Menu/>
       </div>
       <footer></footer>
     </div>
