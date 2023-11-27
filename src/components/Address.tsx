@@ -9,7 +9,7 @@ function Address() {
       <div className="AddressContainer">
         <address>
           <a className="Address" target="_blank" rel="noreferrer" href="https://goo.gl/maps/qX7pHNrtavGphEDr6">
-            <p className='StoreName'>Compton's Pacific Heights</p>
+            <p className='StoreName'>Compton's Lower Pac Heights</p>
             <p>1910 Fillmore Street</p>
             <p>San Francisco, California</p>
           </a>
