@@ -15,7 +15,7 @@ function Navigation(props: any) {
       linkId: 'Hours'
     },
     {
-      text: 'Location',
+      text: 'Locations',
       linkId: 'Address'
     },
     {
